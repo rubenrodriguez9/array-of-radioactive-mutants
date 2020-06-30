@@ -35,6 +35,16 @@ for(i = 0;i < arr.length;i++){
 }
 }
 
+function changeNextThreeToValue(start, arr, val){
+  for(let i = start; i < start + 3; i++){
+      arr[i] = val;
+      console.log(start)
+  }
+}
+
+
+
+
 
 
 
